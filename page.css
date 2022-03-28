@@ -1,0 +1,69 @@
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 2vw;
+  }
+
+a {
+  text-decoration: none;
+  color: goldenrod; 
+}
+
+a:hover {
+  background-color: goldenrod;
+  color: white;
+  padding: 5px;
+}
+
+nav {  
+  background-color: darkgreen;
+  width: 100vw;
+  padding: 5px;  
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url("table.png");
+    background-image: cover;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+div {
+    align-content: center; 
+    padding: 10px;  
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.button {
+  border: none;
+  color: green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.button1 {background-color: goldenrod;} 
